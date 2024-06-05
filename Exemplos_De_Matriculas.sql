@@ -1,7 +1,6 @@
 -- CREATE DATABASE db_universidade;
 USE db_universidade;
 
-TRUNCATE TABLE tbl_matriculas;
 CALL pr_fazer_matricula(
 	"Gabriel",
     "Rosa",
@@ -16,4 +15,4 @@ CALL pr_fazer_matricula(
     "Engenharia da Computação",
     "Engenharia"
 );
-SELECT * FROM tbl_matriculas;
+CALL pr_mostrar_matriculas;

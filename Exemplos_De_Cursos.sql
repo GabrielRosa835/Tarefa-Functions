@@ -1,7 +1,6 @@
 -- CREATE DATABASE db_universidade;
 USE db_universidade;
 
-TRUNCATE TABLE tbl_cursos;
 INSERT INTO tbl_cursos (Curso_Nome, Curso_Area) VALUES
 ('Engenharia Civil', 'Engenharia'),
 ('Engenharia Mecânica', 'Engenharia'),

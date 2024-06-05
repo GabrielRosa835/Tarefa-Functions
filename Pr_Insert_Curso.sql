@@ -1,7 +1,7 @@
 -- CREATE DATABASE db_universidade;
 USE db_universidade;
 
-DROP PROCEDURE pr_insert_curso;
+DROP PROCEDURE IF EXISTS pr_insert_curso;
 DELIMITER $
 CREATE PROCEDURE pr_insert_curso(
 	curso_nome_in VARCHAR(100),

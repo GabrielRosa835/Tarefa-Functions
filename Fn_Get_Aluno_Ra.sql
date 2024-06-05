@@ -1,7 +1,7 @@
 -- CREATE DATABASE db_universidade;
 USE db_universidade;
 
-DROP FUNCTION fn_get_aluno_ra;
+DROP FUNCTION IF EXISTS fn_get_aluno_ra;
 DELIMITER $
 CREATE FUNCTION fn_get_aluno_ra (
 	aluno_nome_in VARCHAR(40),

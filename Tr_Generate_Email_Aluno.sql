@@ -1,7 +1,7 @@
 -- CREATE DATABASE db_universidade;
 USE db_universidade;
 
-DROP TRIGGER tr_generate_email_aluno;
+DROP TRIGGER IF EXISTS tr_generate_email_aluno;
 DELIMITER $
 CREATE TRIGGER tr_generate_email_aluno 
 BEFORE INSERT ON tbl_alunos

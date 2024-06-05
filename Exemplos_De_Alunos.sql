@@ -1,11 +1,11 @@
 -- CREATE DATABASE db_universidade;
 USE db_universidade;
 
-TRUNCATE TABLE tbl_alunos;
--- DROP TABLE Nomes;
--- DROP TABLE Sobrenomes;
+-- DELETE FROM tbl_alunos WHERE TRUE;
+DROP TABLE IF EXISTS Nomes;
+DROP TABLE IF EXISTS Sobrenomes;
 
-DROP PROCEDURE pr_insert_200_alunos;
+DROP PROCEDURE IF EXISTS pr_insert_200_alunos;
 DELIMITER $
 CREATE PROCEDURE pr_insert_200_alunos()
 BEGIN
